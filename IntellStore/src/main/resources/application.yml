@@ -1,0 +1,152 @@
+#=====================================
+#
+#web设置
+#
+#
+#=====================================
+server:
+  port: 52540
+#  servlet:
+#    context-path: /controller
+#=====================================
+#
+#
+#spring设置
+#
+#
+#======================================
+spring:
+  #
+  #数据库连接设置
+  #
+#  datasource:
+#    driver-class-name: oracle.jdbc.driver.OracleDriver
+#    type: com.alibaba.druid.pool.DruidDataSource #使用druid连接池
+#    url: jdbc:oracle:thin:@localhost:1521/IntellStore
+#    username: dadmin
+#    password: 31425523
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource #使用druid连接池
+    url: jdbc:mysql://localhost:3306/intellstore?serverTimezone=UTC
+    username: root
+    password: 20030711
+  #===================================
+  #
+  #redis设置
+  #
+  #===================================
+  redis:
+    # Redis服务器地址
+    host: 192.168.116.130
+    # Redis服务器端口号
+    port: 6379
+    # 使用的数据库索引，默认是0
+    database: 0
+    # 连接超时时间
+    timeout: 1800000
+    # 设置密码
+    #    password: "123456"
+    jedis:
+      pool:
+        # 最大阻塞等待时间，负数表示没有限制
+        max-wait: -1
+        # 连接池中的最大空闲连接
+        max-idle: 5
+        # 连接池中的最小空闲连接
+        min-idle: 0
+        # 连接池中最大连接数，负数表示没有限制
+        max-active: 20
+  application:
+    name: IntellStore
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB #设置请求最大大小
+  #================================
+  #
+  #kafka配置
+  #
+  #================================
+  kafka:
+    #配置集群(未设置)
+    bootstrap-servers: 192.168.116.130:9092 #,
+    #生产者
+    producer:
+#      序列化方式
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      重试次数
+      retries: 0
+#      ack机制
+      acks: 1
+#      批量提交的数据大小
+      batch-size: 16384
+#      缓冲区大小
+      buffer-memory: 33554432
+#    消费者
+    consumer:
+#      允许自动提交
+      enable-auto-commit: true
+#      消费消息后间隔多长时间提交偏移量
+      auto-commit-interval: 100
+#      消费组
+      group-id: test
+      # earliest:当各分区下有已提交的offset时，从提交的offset开始消费；无提交的offset时，从头开始消费
+      # latest:当各分区下有已提交的offset时，从提交的offset开始消费；无提交的offset时，消费新产生的该分区下的数据
+      # none:topic各分区都存在已提交的offset时，从offset后开始消费；只要有一个分区不存在已提交的offset，则抛出异常
+      auto-offset-reset: latest
+#      序列化方式
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  #==================================
+  #
+  #邮件工具配置
+  #
+  #===================================
+  mail:
+    host: smtp.qq.com
+    port: 465
+    username: 3635573716@qq.com
+    password: otfuawduhxibdbde
+    default-encoding: UTF-8
+    properties:
+      mail:
+       smtp:
+         socketFactory:
+           class: javax.net.ssl.SSLSocketFactory
+           port: 465
+       auth: true
+       starttls:
+         enable: true
+         required: true
+
+
+#=====================================
+#
+#
+#mybatis-plus设置
+#
+#
+#====================================
+mybatis-plus:
+  global-config:
+    #    关闭mp的logo
+    banner: false
+  #     设置对应对象java文件
+  type-aliases-package: fun.crimiwar.domain
+  #     设置连接超时时间
+  configuration:
+    default-statement-timeout: 240
+#  mapper-locations: classpath:/mybatisMapper/*.xml
+
+
+#=================================
+#
+#日志设置
+#
+#================================
+logging:
+  level:
+    root: info
+

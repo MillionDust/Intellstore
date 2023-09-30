@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+
+<configuration scan = "true">
+
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+<!--    <include resource="org/springframework/boot/logging/logback/base.xml"/>-->
+<!--    引入属性文件-->
+    <property file="src/main/resources/log/property.properties"/>
+
+<!--    设置Config包下的日志INFO输出模式-->
+    <appender name="Config"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <withJansi>true</withJansi>
+        <encoder>
+            <pattern>${PATH}</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+<!--    配置error级别日志输出模式-->
+    <appender name="ERROR" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <withJansi>true</withJansi>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %red(%-5level) %-40.40logger{39}---[%15.15(%thread)]%msg %n</pattern>
+        </encoder>
+    </appender>
+
+
+<!--    将WARN及以上级别日志输出到logfiles内-->
+    <appender name="WARN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+<!--            文件名及路径-->
+            <fileNamePattern>${LOG_PATH}/IntellStore-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+<!--            单文件最大-->
+            <maxFileSize>100MB</maxFileSize>
+<!--            保存30天-->
+            <maxHistory>30</maxHistory>
+<!--            总日志文件大小20gb-->
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${ROLLINGFILE_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+
+<!--    存储到数据库-->
+<!--    <appender name="DB" class="ch.qos.logback.classic.db.DBAppender">-->
+<!--        <connectionSource class="ch.qos.logback.core.db.DataSourceConnectionSource">-->
+<!--            <dataSource class="com.alibaba.druid.pool.DruidDataSource">-->
+<!--                <driverClassName>com.mysql.cj.jdbc.Driver</driverClassName>-->
+<!--                <jdbcUrl>jdbc:mysql://localhost:3306/intellstore?serverTimezone=UTC</jdbcUrl>-->
+<!--                <user>root</user>-->
+<!--                <password>20030711</password>-->
+<!--            </dataSource>-->
+<!--        </connectionSource>-->
+<!--    </appender>-->
+
+
+
+<!--    设置工具包日志等级为warn-->
+    <logger name="fun.crimiwar.intellstore.util" level="INFO"></logger>
+<!--    设置配置包日志输出等级为INFO-->
+    <logger name="fun.crimiwar.intellstore.config" level="INFO">
+        <appender-ref ref="Config"/>
+<!--        <appender-ref ref="DB"/>-->
+    </logger>
+
+    <root level="${logging.level.root}">
+        <appender-ref ref="CONSOLE" />
+<!--        <appender-ref ref="FILE" />-->
+<!--        <appender-ref ref="TRACE" />-->
+        <appender-ref ref="ERROR" />
+        <appender-ref ref="WARN"/>
+    </root>
+</configuration>

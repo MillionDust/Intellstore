@@ -1,0 +1,214 @@
+2023-08-30 09:11:45.674 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]Starting IntellStoreApplication using Java 11 on LAPTOP-UKUFEQFT with PID 9388 (D:\_RegularProject\智存大仓\IntellStore\target\classes started by 谢子成 in D:\_RegularProject\智存大仓\IntellStore) 
+ =========================== 
+2023-08-30 09:11:45.677 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]No active profile set, falling back to 1 default profile: "default" 
+ =========================== 
+2023-08-30 09:11:46.281 WARN  o.m.s.mapper.ClassPathMapperScanner     ---[           main]No MyBatis mapper was found in '[fun.crimiwar.intellstore]' package. Please check your configuration. 
+ =========================== 
+2023-08-30 09:11:46.649 INFO  o.s.b.w.embedded.tomcat.TomcatWebServer ---[           main]Tomcat initialized with port(s): 52540 (http) 
+ =========================== 
+2023-08-30 09:11:46.651 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0]. 
+ =========================== 
+2023-08-30 09:11:46.651 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true]. 
+ =========================== 
+2023-08-30 09:11:46.651 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+ =========================== 
+2023-08-30 09:11:46.654 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021] 
+ =========================== 
+2023-08-30 09:11:46.662 INFO  o.apache.catalina.core.StandardService  ---[           main]Starting service [Tomcat] 
+ =========================== 
+2023-08-30 09:11:46.662 INFO  org.apache.catalina.core.StandardEngine ---[           main]Starting Servlet engine: [Apache Tomcat/9.0.68] 
+ =========================== 
+2023-08-30 09:11:46.774 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]      ---[           main]Initializing Spring embedded WebApplicationContext 
+ =========================== 
+2023-08-30 09:11:46.775 INFO  w.s.c.ServletWebServerApplicationContext---[           main]Root WebApplicationContext: initialization completed in 1055 ms 
+ =========================== 
+2023-08-30 09:11:46.843 INFO  f.c.intellstore.config.JedisConfig      ---[           main]JedisPool连接成功:192.168.116.130	6379 
+ =========================== 
+2023-08-30 09:11:47.105 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping   ---[           main]Adding welcome page: class path resource [static/index.html] 
+ =========================== 
+2023-08-30 09:11:48.610 INFO  o.s.b.w.embedded.tomcat.TomcatWebServer ---[           main]Tomcat started on port(s): 52540 (http) with context path '' 
+ =========================== 
+2023-08-30 09:11:48.620 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]Started IntellStoreApplication in 3.395 seconds (JVM running for 4.79) 
+ =========================== 
+2023-08-30 09:11:58.352 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]      ---[io-52540-exec-1]Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ =========================== 
+2023-08-30 09:11:58.353 INFO  o.s.web.servlet.DispatcherServlet       ---[io-52540-exec-1]Initializing Servlet 'dispatcherServlet' 
+ =========================== 
+2023-08-30 09:11:58.354 INFO  o.s.web.servlet.DispatcherServlet       ---[io-52540-exec-1]Completed initialization in 1 ms 
+ =========================== 
+2023-08-30 09:52:38.311 INFO  com.alibaba.druid.pool.DruidDataSource  ---[ionShutdownHook]{dataSource-0} closing ... 
+ =========================== 
+2023-08-30 09:52:44.480 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]Starting IntellStoreApplication using Java 11 on LAPTOP-UKUFEQFT with PID 25172 (D:\_RegularProject\智存大仓\IntellStore\target\classes started by 谢子成 in D:\_RegularProject\智存大仓\IntellStore) 
+ =========================== 
+2023-08-30 09:52:44.482 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]No active profile set, falling back to 1 default profile: "default" 
+ =========================== 
+2023-08-30 09:52:45.037 WARN  o.m.s.mapper.ClassPathMapperScanner     ---[           main]No MyBatis mapper was found in '[fun.crimiwar.intellstore]' package. Please check your configuration. 
+ =========================== 
+2023-08-30 09:52:45.386 INFO  o.s.b.w.embedded.tomcat.TomcatWebServer ---[           main]Tomcat initialized with port(s): 52540 (http) 
+ =========================== 
+2023-08-30 09:52:45.387 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0]. 
+ =========================== 
+2023-08-30 09:52:45.387 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true]. 
+ =========================== 
+2023-08-30 09:52:45.387 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+ =========================== 
+2023-08-30 09:52:45.390 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021] 
+ =========================== 
+2023-08-30 09:52:45.397 INFO  o.apache.catalina.core.StandardService  ---[           main]Starting service [Tomcat] 
+ =========================== 
+2023-08-30 09:52:45.398 INFO  org.apache.catalina.core.StandardEngine ---[           main]Starting Servlet engine: [Apache Tomcat/9.0.68] 
+ =========================== 
+2023-08-30 09:52:45.501 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]      ---[           main]Initializing Spring embedded WebApplicationContext 
+ =========================== 
+2023-08-30 09:52:45.501 INFO  w.s.c.ServletWebServerApplicationContext---[           main]Root WebApplicationContext: initialization completed in 985 ms 
+ =========================== 
+2023-08-30 09:52:45.564 INFO  f.c.intellstore.config.JedisConfig      ---[           main]JedisPool连接成功:192.168.116.130	6379 
+ =========================== 
+2023-08-30 09:52:45.822 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping   ---[           main]Adding welcome page: class path resource [static/index.html] 
+ =========================== 
+2023-08-30 09:52:47.250 INFO  o.s.b.w.embedded.tomcat.TomcatWebServer ---[           main]Tomcat started on port(s): 52540 (http) with context path '' 
+ =========================== 
+2023-08-30 09:52:47.260 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]Started IntellStoreApplication in 3.246 seconds (JVM running for 4.628) 
+ =========================== 
+2023-08-30 09:53:33.407 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]      ---[io-52540-exec-1]Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ =========================== 
+2023-08-30 09:53:33.409 INFO  o.s.web.servlet.DispatcherServlet       ---[io-52540-exec-1]Initializing Servlet 'dispatcherServlet' 
+ =========================== 
+2023-08-30 09:53:33.411 INFO  o.s.web.servlet.DispatcherServlet       ---[io-52540-exec-1]Completed initialization in 1 ms 
+ =========================== 
+2023-08-30 09:54:21.837 INFO  com.alibaba.druid.pool.DruidDataSource  ---[ionShutdownHook]{dataSource-0} closing ... 
+ =========================== 
+2023-08-30 09:54:24.752 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]Starting IntellStoreApplication using Java 11 on LAPTOP-UKUFEQFT with PID 7452 (D:\_RegularProject\智存大仓\IntellStore\target\classes started by 谢子成 in D:\_RegularProject\智存大仓\IntellStore) 
+ =========================== 
+2023-08-30 09:54:24.755 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]No active profile set, falling back to 1 default profile: "default" 
+ =========================== 
+2023-08-30 09:54:25.332 WARN  o.m.s.mapper.ClassPathMapperScanner     ---[           main]No MyBatis mapper was found in '[fun.crimiwar.intellstore]' package. Please check your configuration. 
+ =========================== 
+2023-08-30 09:54:25.692 INFO  o.s.b.w.embedded.tomcat.TomcatWebServer ---[           main]Tomcat initialized with port(s): 52540 (http) 
+ =========================== 
+2023-08-30 09:54:25.694 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0]. 
+ =========================== 
+2023-08-30 09:54:25.694 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true]. 
+ =========================== 
+2023-08-30 09:54:25.694 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+ =========================== 
+2023-08-30 09:54:25.697 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021] 
+ =========================== 
+2023-08-30 09:54:25.706 INFO  o.apache.catalina.core.StandardService  ---[           main]Starting service [Tomcat] 
+ =========================== 
+2023-08-30 09:54:25.706 INFO  org.apache.catalina.core.StandardEngine ---[           main]Starting Servlet engine: [Apache Tomcat/9.0.68] 
+ =========================== 
+2023-08-30 09:54:25.814 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]      ---[           main]Initializing Spring embedded WebApplicationContext 
+ =========================== 
+2023-08-30 09:54:25.815 INFO  w.s.c.ServletWebServerApplicationContext---[           main]Root WebApplicationContext: initialization completed in 1022 ms 
+ =========================== 
+2023-08-30 09:54:25.881 INFO  f.c.intellstore.config.JedisConfig      ---[           main]JedisPool连接成功:192.168.116.130	6379 
+ =========================== 
+2023-08-30 09:54:26.148 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping   ---[           main]Adding welcome page: class path resource [static/index.html] 
+ =========================== 
+2023-08-30 09:54:27.608 INFO  o.s.b.w.embedded.tomcat.TomcatWebServer ---[           main]Tomcat started on port(s): 52540 (http) with context path '' 
+ =========================== 
+2023-08-30 09:54:27.618 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]Started IntellStoreApplication in 3.356 seconds (JVM running for 4.808) 
+ =========================== 
+2023-08-30 09:54:31.181 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]      ---[io-52540-exec-2]Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ =========================== 
+2023-08-30 09:54:31.182 INFO  o.s.web.servlet.DispatcherServlet       ---[io-52540-exec-2]Initializing Servlet 'dispatcherServlet' 
+ =========================== 
+2023-08-30 09:54:31.183 INFO  o.s.web.servlet.DispatcherServlet       ---[io-52540-exec-2]Completed initialization in 1 ms 
+ =========================== 
+2023-08-30 09:54:43.058 INFO  com.alibaba.druid.pool.DruidDataSource  ---[ionShutdownHook]{dataSource-0} closing ... 
+ =========================== 
+2023-08-30 09:54:46.721 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]Starting IntellStoreApplication using Java 11 on LAPTOP-UKUFEQFT with PID 15096 (D:\_RegularProject\智存大仓\IntellStore\target\classes started by 谢子成 in D:\_RegularProject\智存大仓\IntellStore) 
+ =========================== 
+2023-08-30 09:54:46.724 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]No active profile set, falling back to 1 default profile: "default" 
+ =========================== 
+2023-08-30 09:54:47.285 WARN  o.m.s.mapper.ClassPathMapperScanner     ---[           main]No MyBatis mapper was found in '[fun.crimiwar.intellstore]' package. Please check your configuration. 
+ =========================== 
+2023-08-30 09:54:47.630 INFO  o.s.b.w.embedded.tomcat.TomcatWebServer ---[           main]Tomcat initialized with port(s): 52540 (http) 
+ =========================== 
+2023-08-30 09:54:47.632 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0]. 
+ =========================== 
+2023-08-30 09:54:47.632 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true]. 
+ =========================== 
+2023-08-30 09:54:47.632 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+ =========================== 
+2023-08-30 09:54:47.635 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021] 
+ =========================== 
+2023-08-30 09:54:47.642 INFO  o.apache.catalina.core.StandardService  ---[           main]Starting service [Tomcat] 
+ =========================== 
+2023-08-30 09:54:47.643 INFO  org.apache.catalina.core.StandardEngine ---[           main]Starting Servlet engine: [Apache Tomcat/9.0.68] 
+ =========================== 
+2023-08-30 09:54:47.746 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]      ---[           main]Initializing Spring embedded WebApplicationContext 
+ =========================== 
+2023-08-30 09:54:47.747 INFO  w.s.c.ServletWebServerApplicationContext---[           main]Root WebApplicationContext: initialization completed in 988 ms 
+ =========================== 
+2023-08-30 09:54:47.811 INFO  f.c.intellstore.config.JedisConfig      ---[           main]JedisPool连接成功:192.168.116.130	6379 
+ =========================== 
+2023-08-30 09:54:48.064 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping   ---[           main]Adding welcome page: class path resource [static/index.html] 
+ =========================== 
+2023-08-30 09:54:49.538 INFO  o.s.b.w.embedded.tomcat.TomcatWebServer ---[           main]Tomcat started on port(s): 52540 (http) with context path '' 
+ =========================== 
+2023-08-30 09:54:49.548 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]Started IntellStoreApplication in 3.259 seconds (JVM running for 4.674) 
+ =========================== 
+2023-08-30 09:55:19.985 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]      ---[io-52540-exec-1]Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ =========================== 
+2023-08-30 09:55:19.986 INFO  o.s.web.servlet.DispatcherServlet       ---[io-52540-exec-1]Initializing Servlet 'dispatcherServlet' 
+ =========================== 
+2023-08-30 09:55:19.987 INFO  o.s.web.servlet.DispatcherServlet       ---[io-52540-exec-1]Completed initialization in 0 ms 
+ =========================== 
+2023-08-30 09:55:27.610 INFO  com.alibaba.druid.pool.DruidDataSource  ---[ionShutdownHook]{dataSource-0} closing ... 
+ =========================== 
+2023-08-30 09:55:32.467 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]Starting IntellStoreApplication using Java 11 on LAPTOP-UKUFEQFT with PID 11316 (D:\_RegularProject\智存大仓\IntellStore\target\classes started by 谢子成 in D:\_RegularProject\智存大仓\IntellStore) 
+ =========================== 
+2023-08-30 09:55:32.469 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]No active profile set, falling back to 1 default profile: "default" 
+ =========================== 
+2023-08-30 09:55:33.015 WARN  o.m.s.mapper.ClassPathMapperScanner     ---[           main]No MyBatis mapper was found in '[fun.crimiwar.intellstore]' package. Please check your configuration. 
+ =========================== 
+2023-08-30 09:55:33.375 INFO  o.s.b.w.embedded.tomcat.TomcatWebServer ---[           main]Tomcat initialized with port(s): 52540 (http) 
+ =========================== 
+2023-08-30 09:55:33.376 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0]. 
+ =========================== 
+2023-08-30 09:55:33.377 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true]. 
+ =========================== 
+2023-08-30 09:55:33.377 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+ =========================== 
+2023-08-30 09:55:33.380 INFO  o.a.catalina.core.AprLifecycleListener  ---[           main]OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021] 
+ =========================== 
+2023-08-30 09:55:33.387 INFO  o.apache.catalina.core.StandardService  ---[           main]Starting service [Tomcat] 
+ =========================== 
+2023-08-30 09:55:33.387 INFO  org.apache.catalina.core.StandardEngine ---[           main]Starting Servlet engine: [Apache Tomcat/9.0.68] 
+ =========================== 
+2023-08-30 09:55:33.495 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]      ---[           main]Initializing Spring embedded WebApplicationContext 
+ =========================== 
+2023-08-30 09:55:33.496 INFO  w.s.c.ServletWebServerApplicationContext---[           main]Root WebApplicationContext: initialization completed in 993 ms 
+ =========================== 
+2023-08-30 09:55:33.561 INFO  f.c.intellstore.config.JedisConfig      ---[           main]JedisPool连接成功:192.168.116.130	6379 
+ =========================== 
+2023-08-30 09:55:33.810 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping   ---[           main]Adding welcome page: class path resource [static/index.html] 
+ =========================== 
+2023-08-30 09:55:35.263 INFO  o.s.b.w.embedded.tomcat.TomcatWebServer ---[           main]Tomcat started on port(s): 52540 (http) with context path '' 
+ =========================== 
+2023-08-30 09:55:35.273 INFO  f.c.intellstore.IntellStoreApplication  ---[           main]Started IntellStoreApplication in 3.256 seconds (JVM running for 4.594) 
+ =========================== 
+2023-08-30 09:55:56.570 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]      ---[io-52540-exec-1]Initializing Spring DispatcherServlet 'dispatcherServlet' 
+ =========================== 
+2023-08-30 09:55:56.572 INFO  o.s.web.servlet.DispatcherServlet       ---[io-52540-exec-1]Initializing Servlet 'dispatcherServlet' 
+ =========================== 
+2023-08-30 09:55:56.573 INFO  o.s.web.servlet.DispatcherServlet       ---[io-52540-exec-1]Completed initialization in 1 ms 
+ =========================== 
+2023-08-30 09:56:44.214 INFO  f.c.i.IntellStoreApplicationTests       ---[           main]Starting IntellStoreApplicationTests using Java 11 on LAPTOP-UKUFEQFT with PID 17072 (started by 谢子成 in D:\_RegularProject\智存大仓\IntellStore) 
+ =========================== 
+2023-08-30 09:56:44.216 INFO  f.c.i.IntellStoreApplicationTests       ---[           main]No active profile set, falling back to 1 default profile: "default" 
+ =========================== 
+2023-08-30 09:56:44.975 WARN  o.m.s.mapper.ClassPathMapperScanner     ---[           main]No MyBatis mapper was found in '[fun.crimiwar.intellstore]' package. Please check your configuration. 
+ =========================== 
+2023-08-30 09:56:45.396 INFO  f.c.intellstore.config.JedisConfig      ---[           main]JedisPool连接成功:192.168.116.130	6379 
+ =========================== 
+2023-08-30 09:56:46.542 INFO  o.s.b.a.w.s.WelcomePageHandlerMapping   ---[           main]Adding welcome page: class path resource [static/index.html] 
+ =========================== 
+2023-08-30 09:56:48.685 INFO  f.c.i.IntellStoreApplicationTests       ---[           main]Started IntellStoreApplicationTests in 5.001 seconds (JVM running for 6.283) 
+ =========================== 
+2023-08-30 09:56:49.900 INFO  com.alibaba.druid.pool.DruidDataSource  ---[ionShutdownHook]{dataSource-0} closing ... 
+ =========================== 
+2023-08-30 11:48:17.172 INFO  com.alibaba.druid.pool.DruidDataSource  ---[ionShutdownHook]{dataSource-0} closing ... 
+ =========================== 
